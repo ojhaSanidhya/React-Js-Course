@@ -5,7 +5,7 @@ import MenuCard from "./MenuCard";
 import Navbar from "./Navbar";
 
 const Resturant = () => {
-  // new Set data strc. ke help se hum sirf inique chizo ko show karwa sakte hai, ( ... )Spread operator for making object to array
+  // new Set data strc. ke help se hum sirf inique chizo ko show karwa sakte hai, ( ... )Spread operator for making object to array ok
   const uniqueList = [
     ...new Set(
       Menu.map((curElem) => {
